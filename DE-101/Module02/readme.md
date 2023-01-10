@@ -1,4 +1,4 @@
-1.	Overview (обзор ключевых метрик)
+### Overview (обзор ключевых метрик)
   - Total Sales
   ```
   select sum(sales) as sum_sales
@@ -68,7 +68,7 @@
   order by category, month, year;
   ```
   ![8](./monthly_sales_by_product_category.bmp)
- 2. Customer Analysis
+ ### Customer Analysis
   - Sales and Profit by Customer
   ```
   select
