@@ -4,16 +4,19 @@
   select sum(sales) as sum_sales
   from orders;
   ```
+  ![1](./sum_sales.bmp)
   - Total Profit
   ```
   select sum(profit) as sum_profit
   from orders;
   ```
+  ![2](./sum_profit.bmp)
   - Profit Ratio
   ```
   select sum(sales) / sum(profit) as profit_ratio
   from orders;
   ```
+  ![3](./profit_ratio.bmp)
   - Profit per Order
   ```
   select 
@@ -22,6 +25,7 @@
   from orders
   group by order_id;
   ```
+  ![4](./profit_per_order.bmp)
   - Sales per Customer
   ```
   select
@@ -30,6 +34,7 @@
   from orders
   group by customer_id;
   ```
+  ![5](./sales_per_customer.bmp)
   - Avg. Discount
   ```
   select
@@ -38,6 +43,7 @@
   from orders
   group by year;
   ```
+  ![6](./avg_discount.bmp)
   - Monthly Sales by Segment
   ```
   select 
@@ -49,6 +55,7 @@
   group by segment, month, year
   order by segment, month, year;
   ```
+  ![7](./monthly_sales_by_segment.bmp)
   - Monthly Sales by Product Category
   ```
   select 
@@ -60,6 +67,7 @@
   group by category, month, year
   order by category, month, year;
   ```
+  ![8](./monthly_sales_by_product_category.bmp)
  2. Customer Analysis
   - Sales and Profit by Customer
   ```
@@ -70,6 +78,7 @@
   from orders
   group by customer_id;
   ```
+  ![9](./sales_and_profit_by_customer.bmp)
   - Customer Ranking
   ```
   select 
@@ -80,6 +89,7 @@
   from orders
   group by customer_id;
   ```
+  ![10](./rank_by_profit.bmp)
   - Sales per region
   ```
   select
@@ -88,3 +98,4 @@
   from orders
   group by region;
   ```
+  ![11](./sales_per_region.bmp)
