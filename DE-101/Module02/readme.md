@@ -102,4 +102,4 @@
 
 ### Физическая модель данных
 
-![star_model] (./star_model.bmp)
+![star_model](./star_model.bmp)
