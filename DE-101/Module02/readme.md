@@ -99,3 +99,7 @@
   group by region;
   ```
   ![11](./sales_per_region.bmp)
+
+### Физическая модель данных
+
+![star_model] (./star_model.bmp)
