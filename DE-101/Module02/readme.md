@@ -191,6 +191,7 @@
 - Здесь стоит остановиться на *селекторах*:
 
 	![dash](./pics/dash2.png)
+	
 	Фильтровать данные можно либо в самом чарте, либо с помощью селектора. 
 	
 	![dash](./pics/dash3.png)
@@ -200,3 +201,5 @@
 	![dash](./pics/dash4.png)
 
 Теперь самое время переходить к Модулю 3 :)
+
+![final](https://github.com/Data-Learn/data-engineering/blob/master/img/de101-module02.png)
